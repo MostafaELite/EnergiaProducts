@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnergiaProducts.Entities\EnergiaProducts.Entities.csproj" />
+    <ProjectReference Include="..\EnergiaProducts.Models\EnergiaProducts.Models.csproj" />
+    <ProjectReference Include="..\EnergiaProducts.Persistence\EnergiaProducts.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
+</Project>
